@@ -1,0 +1,6 @@
+# Hard Stop: Kernel-Level Preemption & Containment for Rogue Agentic Execution
+# Core Runtime & Verification Dependencies
+
+pydantic>=2.0.0
+pytest>=7.0.0
+pytest-asyncio>=0.21.0

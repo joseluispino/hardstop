@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.env
+.venv
+env/
+venv/
+.DS_Store
+*.swp
+*.bin
+
+# benchmark_results.jsonl is intentionally git-tracked (reproducibility history)
+
+# LaTeX build artifacts
+paper/ms.aux
+paper/ms.log
+paper/ms.out
+paper/ms.pdf
+paper/*.fls
+paper/*.fdb_latexmk
