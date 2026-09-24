@@ -1,5 +1,7 @@
 # Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution
 
+*Patent Pending*
+
 [![Paper](https://img.shields.io/badge/paper-PDF-red.svg)](paper/hard_stop.pdf)
 [![arXiv](https://img.shields.io/badge/arXiv-submission%20pending-b31b1b.svg)](https://arxiv.org)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--4854--3914-A6CE39.svg)](https://orcid.org/0009-0005-4854-3914)
