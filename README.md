@@ -3,7 +3,7 @@
 *Patent Pending*
 
 [![Paper](https://img.shields.io/badge/paper-PDF-red.svg)](paper/hard_stop.pdf)
-[![arXiv](https://img.shields.io/badge/arXiv-submission%20pending-b31b1b.svg)](https://arxiv.org)
+[![arXiv](https://img.shields.io/badge/arXiv-2609.29808-b31b1b.svg)](https://arxiv.org/abs/2609.29808)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--4854--3914-A6CE39.svg)](https://orcid.org/0009-0005-4854-3914)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -115,11 +115,14 @@ pytest -v test_andon_circuit_breaker.py
 If you reference this architecture or reference implementation in your research, please cite:
 
 ```bibtex
-@article{pino2026hardstop,
+@misc{pino2026hardstop,
   title={Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution},
-  author={Pino, Jos{\'e} Luis},
-  journal={arXiv preprint arXiv:2026.XXXXX},
-  year={2026}
+  author={Jos{\'e} Luis Pino},
+  year={2026},
+  eprint={2609.29808},
+  archivePrefix={arXiv},
+  primaryClass={cs.CR},
+  url={https://arxiv.org/abs/2609.29808}
 }
 ```
 
