@@ -322,6 +322,49 @@ def _run_orchestrator() -> None:
     with open(_log_path, "a", encoding="utf-8") as _f:
         _f.write(json.dumps(_record) + "\n")
     print(f"  📝 Results logged → {_log_path.name}")
+
+    # Optional SQLite persistence to axiom_benchmarks.sqlite
+    _vault_root = os.environ.get("AXIOM_VAULT_ROOT", "/home/jpino/Obsidian/Axiom")
+    _sqlite_path = Path(_vault_root) / "_Meta/Database/axiom_benchmarks.sqlite"
+    if _sqlite_path.exists():
+        try:
+            import sqlite3
+            _conn = sqlite3.connect(str(_sqlite_path))
+            _cur = _conn.cursor()
+            _run_id = f"kj-hardstop-{_sha}"
+            _cur.execute("""
+            INSERT OR REPLACE INTO preemption_latency_runs (
+                run_id, timestamp, git_commit_sha, platform_cpu, python_version,
+                kj_E_processes, kj_M_iters_tripwire, kj_M_iters_preemption, kj_B_bootstrap,
+                tripwire_median_us, tripwire_p99_us, tripwire_ci_json,
+                sigstop_median_ms, sigstop_p99_ms, sigstop_ci_json,
+                wcet_bound_ms, wcet_passed, notes
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                _run_id,
+                _record["timestamp"],
+                _sha,
+                _record["platform"]["os_uname"],
+                _record["platform"]["python_version"],
+                E_PROCESSES,
+                M_ITERS_TW,
+                M_ITERS_PR,
+                BOOTSTRAP_B,
+                tw_med,
+                tw_p99_med,
+                json.dumps({"ci_lo": tw_ci_lo, "ci_hi": tw_ci_hi, "p99_ci_lo": tw_p99_lo, "p99_ci_hi": tw_p99_hi}),
+                pr_med,
+                pr_p99_med,
+                json.dumps({"ci_lo": pr_ci_lo, "ci_hi": pr_ci_hi, "p99_ci_lo": pr_p99_lo, "p99_ci_hi": pr_p99_hi}),
+                WCET_BOUND_MS,
+                1 if wcet_pass else 0,
+                "Live run from benchmark_latency.py orchestrator"
+            ))
+            _conn.commit()
+            _conn.close()
+            print(f"  💾 SQLite persistence verified → {_sqlite_path.name} (run_id: {_run_id})")
+        except Exception as _e:
+            print(f"  ⚠️ SQLite persistence notice: {_e}")
     print(sep)
 
 
