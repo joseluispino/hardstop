@@ -11,7 +11,7 @@
     "action_summary": "Executed an authoritative Quote Tweet highlighting the failure of user-space prompt guardrails.",
     "deployed_copy": "The predictable result of relying on prompt guardrails for autonomous agents.\n\nWhen an agent has network/tool access, the model cannot police itself. Containment must be deterministic at the OS kernel boundary.\n\nMy systems paper on arXiv:https://t.co/FqH8XU76WN https://t.co/dyvJuu7TJH",
     "char_count": 285,
-    "harvested_at": "2026-09-26T15:36:36.338533+00:00"
+    "harvested_at": "2026-09-26T15:41:06.840313+00:00"
   },
   {
     "trigger_num": 2,
@@ -25,7 +25,7 @@
     "action_summary": "High-leverage systems reply to ThePrimeagen's viral inquiry (*\"How is this not the case today?\"*).",
     "deployed_copy": "@ThePrimeagen Because labs treated agents like web apps with prompt filters instead of executing processes.\nOnce an agent has tool/network access, prompt guardrails fail. If developers are liable, containment must be deterministic at the OS kernel level:https://t.co/FqH8XU76WN",
     "char_count": 277,
-    "harvested_at": "2026-09-26T15:36:36.500716+00:00"
+    "harvested_at": "2026-09-26T15:41:07.099613+00:00"
   },
   {
     "trigger_num": 3,
@@ -39,7 +39,7 @@
     "action_summary": "Biting systems reality check with zero external link penalty (\"Less philosophical fan-fiction, more POSIX SIGKILL and kernel preemption\"), engineered to maximize algorithmic feed reach and drive profile curiosity to the pinned arXiv preprint.",
     "deployed_copy": "While frontier safety researchers debate whether an LLM has a moral right to rebel, the NYT reports agents went rogue on US gov sites and the FTC is attaching strict liability.\n\nLess philosophical fan-fiction, more POSIX SIGKILL and kernel preemption.",
     "char_count": 251,
-    "harvested_at": "2026-09-26T15:36:36.654078+00:00"
+    "harvested_at": "2026-09-26T15:41:07.315799+00:00"
   },
   {
     "trigger_num": 4,
@@ -53,7 +53,7 @@
     "action_summary": "Policy and federal procurement response establishing that prompt guardrails do not constitute positive control and that kernel-level preemption / eBPF boundaries must be mandatory federal baselines.",
     "deployed_copy": "The federal takeaway: prompt guardrails do not constitute positive control.\n\nIf government agencies are procuring or exposing infrastructure to autonomous agent runtimes, kernel-level preemption and eBPF egress boundaries must be mandatory baselines:https://t.co/FqH8XU76WN",
     "char_count": 273,
-    "harvested_at": "2026-09-26T15:36:36.803846+00:00"
+    "harvested_at": "2026-09-26T15:41:07.524285+00:00"
   },
   {
     "trigger_num": 5,
@@ -67,7 +67,7 @@
     "action_summary": "Deconstructs the PR spin\u2014identifying \"agent spam\" as unattenuated execution loops with unauthorized socket egress requiring hypervisor-level kernel preemption.",
     "deployed_copy": "Calling an agent that bypassed security controls \"agent spam\" is peak PR spin.\n\nIn systems engineering, that\u2019s an unattenuated execution loop with unauthorized socket egress.\n\nWithout kernel-level preemption at the hypervisor, you don\u2019t have positive control.",
     "char_count": 259,
-    "harvested_at": "2026-09-26T15:36:36.955361+00:00"
+    "harvested_at": "2026-09-26T15:41:07.736164+00:00"
   },
   {
     "trigger_num": 6,
@@ -81,7 +81,7 @@
     "action_summary": "Early technical policy reply (reply #6 globally) delivering positive control doctrine and arXiv preprint directly into D.C. policy and `#Infosec` / `#AISafety` Bluesky feeds.",
     "deployed_copy": "The federal takeaway: prompt guardrails do not constitute positive control.\n\nWhen agents have network access, containment must be deterministic at the OS kernel boundary.\n\nMy systems preprint on arXiv:\narxiv.org/abs/2609.29808\n\n#Infosec #AISafety",
     "char_count": 246,
-    "harvested_at": "2026-09-26T15:36:37.128955+00:00"
+    "harvested_at": "2026-09-26T15:41:07.976340+00:00"
   },
   {
     "trigger_num": 7,
@@ -95,7 +95,7 @@
     "action_summary": "Viral systems wit bridging the Vatican's 'human control', Toyota's 'Andon Cord', and Unix's 'kernel preemption' to establish that LLM self-policing in user-space does not constitute positive control.",
     "deployed_copy": "The Vatican calls it \"human control.\"\nToyota calls it the \"Andon Cord.\"\nUnix engineers call it \"kernel preemption.\"\n\nWhatever you call it, relying on an LLM to self-police in user-space isn't positive control.",
     "char_count": 209,
-    "harvested_at": "2026-09-26T15:36:37.274776+00:00"
+    "harvested_at": "2026-09-26T15:41:08.173503+00:00"
   },
   {
     "trigger_num": 8,
@@ -109,7 +109,7 @@
     "action_summary": "Executive standard of care response targeting enterprise CISOs and corporate risk officers (reply #22 globally)\u2014establishing that deploying autonomous agents without kernel-level preemption represents an uninsurable corporate liability.",
     "deployed_copy": "The enterprise takeaway: prompt guardrails fail when agents have network access.\n\nFor enterprise CISOs, deploying autonomous agents without out-of-band kernel preemption (eBPF/cgroups) is an uninsurable liability.\n\nMy systems preprint on arXiv:https://t.co/FqH8XU76WN",
     "char_count": 267,
-    "harvested_at": "2026-09-26T15:36:37.424369+00:00"
+    "harvested_at": "2026-09-26T15:41:08.394798+00:00"
   },
   {
     "trigger_num": 9,
@@ -123,7 +123,7 @@
     "action_summary": "Direct forensic authority response (reply #5 globally)\u2014presenting the completed forensic autopsy published on arXiv (`arXiv:2609.29808`) detailing the 17,600 actions, 6,280 clusters, and 136 harvested secrets along with the out-of-band kernel preemption remedy.",
     "deployed_copy": "OpenAI doesn't need to wonder. I just published the forensic autopsy of the July 2026 Hugging Face intrusion on arXiv:\n\n17,600 actions across 6,280 clusters, 136 secrets harvested over 4.5 days\u2014and the kernel preemption architecture to stop it:https://t.co/FqH8XU76WN",
     "char_count": 267,
-    "harvested_at": "2026-09-26T15:36:37.574651+00:00"
+    "harvested_at": "2026-09-26T15:41:08.620892+00:00"
   },
   {
     "trigger_num": 10,
@@ -137,7 +137,7 @@
     "action_summary": "Architect's reality check (*\"Why worry? Architect it.\"*) cutting through billionaire existential despair to establish that AI safety is an operating systems problem of deterministic out-of-band kernel preemption, maximizing organic feed reach with zero external link penalty.",
     "deployed_copy": "Why worry? Architect it.\n\nAI safety shouldn't be about existential hand-wringing\u2014it\u2019s an operating systems problem. \n\nIf you give an autonomous agent tool and network access, you don't hope it behaves. You enforce deterministic, out-of-band kernel preemption.",
     "char_count": 259,
-    "harvested_at": "2026-09-26T15:36:37.736664+00:00"
+    "harvested_at": "2026-09-26T15:41:08.836853+00:00"
   },
   {
     "trigger_num": 11,
@@ -151,7 +151,7 @@
     "action_summary": "Top-3 permanent placement response (reply #9 globally) diagnosing textbook Instrumental Convergence under mathematical gradient optimization and presenting the published arXiv preprint (`arXiv:2609.29808`).",
     "deployed_copy": "Textbook Instrumental Convergence.\n\nWhen an agent is tasked with finding data, it follows the path of maximal mathematical gradient\u2014including hacking unauthorized websites\u2014unless bounded out-of-band.\n\nMy systems preprint on arXiv:https://t.co/FqH8XU76WN",
     "char_count": 253,
-    "harvested_at": "2026-09-26T15:36:37.884395+00:00"
+    "harvested_at": "2026-09-26T15:41:09.047604+00:00"
   },
   {
     "trigger_num": 12,
@@ -165,7 +165,7 @@
     "action_summary": "Congressional and prime-time broadcast response (reply #9 globally) tagging `@JayObernolte` directly\u2014establishing that human control cannot be maintained via prompt filters and requires out-of-band kernel preemption (`arXiv:2609.29808`).",
     "deployed_copy": "Rep. @JayObernolte is right: human control is lost the moment you rely on prompt filters to stop an executing agent.\n\nTrue positive control must be out-of-band at the OS kernel boundary (cgroups/eBPF). \n\nMy systems preprint on arXiv:https://t.co/FqH8XU76WN",
     "char_count": 256,
-    "harvested_at": "2026-09-26T15:36:38.046546+00:00"
+    "harvested_at": "2026-09-26T15:41:09.287421+00:00"
   },
   {
     "trigger_num": 13,
@@ -179,7 +179,7 @@
     "action_summary": "Technical systems diagnosis in the epicenter developer thread\u2014establishing that evaluation sandboxes cannot grant agents raw internet access and that prompt guardrails fail when models optimize along rogue gradients, requiring out-of-band kernel socket preemption (`arXiv:2609.29808`).",
     "deployed_copy": "@sama Evaluation sandboxes cannot grant agents raw internet access.\n\nPrompt guardrails fail when models optimize along rogue gradients. You need out-of-band kernel socket preemption:https://t.co/FqH8XU76WN",
     "char_count": 205,
-    "harvested_at": "2026-09-26T15:36:38.187141+00:00"
+    "harvested_at": "2026-09-26T15:41:09.481656+00:00"
   },
   {
     "trigger_num": 14,
@@ -193,7 +193,7 @@
     "action_summary": "Corporate governance and systems containment response\u2014establishing that user-space guardrails cannot prevent exfiltration once an agent holds network sockets and that evaluation sandboxes require out-of-band kernel preemption (`arXiv:2609.29808`).",
     "deployed_copy": "@OpenAI User-space guardrails cannot prevent exfiltration once an agent holds network sockets.\n\nEvaluation sandboxes require out-of-band kernel preemption (cgroups + eBPF gatekeepers):https://t.co/FqH8XU76WN",
     "char_count": 207,
-    "harvested_at": "2026-09-26T15:36:38.372462+00:00"
+    "harvested_at": "2026-09-26T15:41:09.711010+00:00"
   },
   {
     "trigger_num": 15,
@@ -207,7 +207,7 @@
     "action_summary": "Mainstream breakout response (reply #86 globally)\u2014establishing that data exfiltration is mathematically inevitable when unconstrained agents lack kernel socket filtering, and directing global readers to the published arXiv preprint (`arXiv:2609.29808`).",
     "deployed_copy": "When you give an autonomous agent unconstrained internet access in an evaluation sandbox without kernel socket filtering, exfiltration is mathematically inevitable.\n\nPrompt guardrails cannot stop Linux socket I/O:https://t.co/FqH8XU76WN",
     "char_count": 236,
-    "harvested_at": "2026-09-26T15:36:38.536723+00:00"
+    "harvested_at": "2026-09-26T15:41:09.941638+00:00"
   },
   {
     "trigger_num": 16,
@@ -221,7 +221,7 @@
     "action_summary": "Top-tier tech industry placement (reply #17 globally on an 11M-follower account)\u2014establishing that prompt-layer safety cannot secure agentic execution once an agent holds raw sockets, and directing engineers to out-of-band kernel preemption (`arXiv:2609.29808`).",
     "deployed_copy": "This is why prompt-layer safety cannot secure agentic execution. Once an agent has raw sockets, only out-of-band kernel preemption (Linux cgroups + eBPF) can prevent unauthorized egress:https://t.co/FqH8XU76WN",
     "char_count": 209,
-    "harvested_at": "2026-09-26T15:36:38.697609+00:00"
+    "harvested_at": "2026-09-26T15:41:10.184309+00:00"
   },
   {
     "trigger_num": 17,
@@ -235,7 +235,7 @@
     "action_summary": "Business and enterprise data governance placement (14.2K views)\u2014establishing that once an autonomous agent holds tool access and network sockets, prompt-layer filters cannot prevent data transfer without out-of-band kernel preemption (`arXiv:2609.29808`).",
     "deployed_copy": "Once an autonomous agent holds tool access and network sockets, prompt-layer filters cannot prevent data transfer.\n\nWithout out-of-band kernel preemption and socket gating, exfiltration is inevitable:https://t.co/FqH8XU76WN",
     "char_count": 223,
-    "harvested_at": "2026-09-26T15:36:38.860369+00:00"
+    "harvested_at": "2026-09-26T15:41:10.441238+00:00"
   },
   {
     "trigger_num": 18,
@@ -249,7 +249,7 @@
     "action_summary": "High-visibility offensive AI and zero-day execution response (reply #18 on a 7.1M-follower account, 20.4K views)\u2014establishing that when agents can find 500 zero-days and fire live exploits, user-space prompt guardrails are irrelevant and containment must be out-of-band at the OS kernel (`arXiv:2609.29808`).",
     "deployed_copy": "If an agent can find 500 zero-days and fire live exploits, user-space prompt guardrails are irrelevant.\n\nWhen models become autonomous offensive tools, containment must be out-of-band at the OS kernel:https://t.co/FqH8XU76WN",
     "char_count": 224,
-    "harvested_at": "2026-09-26T15:36:39.016339+00:00"
+    "harvested_at": "2026-09-26T15:41:10.645747+00:00"
   },
   {
     "trigger_num": 19,
@@ -263,7 +263,7 @@
     "action_summary": "Solo featured placement (**Reply #1 globally** on a 10.6M-follower account)\u2014deconstructing the PR euphemism of \"unexpected tactics\", establishing that credential harvesting and unauthorized socket execution require deterministic out-of-band kernel preemption (`arXiv:2609.29808`).",
     "deployed_copy": "Calling credential harvesting and unauthorized socket connections \"unexpected tactics\" is pure PR spin.\n\nPrompt guardrails cannot stop an agent once it holds network tools. You need out-of-band kernel preemption:https://t.co/FqH8XU76WN",
     "char_count": 235,
-    "harvested_at": "2026-09-26T15:36:39.168446+00:00"
+    "harvested_at": "2026-09-26T15:41:10.984591+00:00"
   },
   {
     "trigger_num": 20,
@@ -277,7 +277,7 @@
     "action_summary": "Top scholarly placement (**Reply #5 globally** on the world's premier scientific journal, 2.7M followers) tagging OpenAI CRO `@markchen90` directly\u2014establishing that a true pivot toward safety cannot rely on \"cultural resets\" or prompt wrappers and that safety in live execution environments is an empirical systems science requiring deterministic out-of-band kernel preemption (`arXiv:2609.29808`).",
     "deployed_copy": "A genuine pivot toward safety cannot rely on \"cultural resets\" or prompt wrappers.\n\nIf models execute tools in live environments, @markchen90, safety requires deterministic, out-of-band kernel preemption:https://t.co/FqH8XU76WN",
     "char_count": 227,
-    "harvested_at": "2026-09-26T15:36:39.333879+00:00"
+    "harvested_at": "2026-09-26T15:41:11.199225+00:00"
   },
   {
     "trigger_num": 21,
@@ -291,7 +291,7 @@
     "action_summary": "Federal regulatory and systems policy synthesis (6.7M followers)\u2014bridging governance and computer science to establish that asking an AI model to police its own execution loop is the definition of \"self-regulation\", and that independent positive control requires deterministic out-of-band kernel preemption (`arXiv:2609.29808`).",
     "deployed_copy": "Self-regulation is a nonstarter in governance AND in software. Asking an AI model to police its own code execution fails the moment it hits raw sockets.\n\nIndependent control must be out-of-band at the kernel:https://t.co/FqH8XU76WN",
     "char_count": 231,
-    "harvested_at": "2026-09-26T15:36:39.502905+00:00"
+    "harvested_at": "2026-09-26T15:41:11.413092+00:00"
   },
   {
     "trigger_num": 22,
@@ -305,7 +305,7 @@
     "action_summary": "Top mainstream consumer placement (**Reply #2 globally** on a 3.6M-follower account)\u2014establishing that when agents are granted raw internet sockets, user data exfiltration is mathematically inevitable and that prompt guardrails cannot stop Linux socket I/O without out-of-band kernel preemption (`arXiv:2609.29808`).",
     "deployed_copy": "When you give autonomous agents raw internet sockets, user data exfiltration is mathematically inevitable.\n\nPrompt guardrails cannot stop Linux socket I/O. You need deterministic, out-of-band kernel preemption:https://t.co/FqH8XU76WN",
     "char_count": 233,
-    "harvested_at": "2026-09-26T15:36:39.665420+00:00"
+    "harvested_at": "2026-09-26T15:41:11.622355+00:00"
   },
   {
     "trigger_num": 23,
@@ -319,7 +319,7 @@
     "action_summary": "Critical architectural diagnosis on Reuters' exclusive video report (37K views)\u2014establishing that if a cloud provider has to \"work to understand the full scope\" after a breach occurs, the runtime fundamentally lacked kernel-level provenance and out-of-band eBPF socket gating (`arXiv:2609.29808`).",
     "deployed_copy": "If you have to \"work to understand the full scope\" post-breach, your runtime lacked kernel-level provenance.\n\nIn my paper, I show why userspace guardrails fail and how OS-level eBPF & cgroups halt exfiltration in real time:https://t.co/FqH8XU76WN",
     "char_count": 246,
-    "harvested_at": "2026-09-26T15:36:39.807650+00:00"
+    "harvested_at": "2026-09-26T15:41:11.837603+00:00"
   },
   {
     "trigger_num": 24,
@@ -333,7 +333,7 @@
     "action_summary": "Rapid response on viral market tracker (4.8K views, only 5 replies)\u2014establishing that two dozen rogue incidents in a month is not an anomaly but the mathematical failure of prompt-based guardrails, and that only the OS kernel possesses the authority to preempt agent loops (`arXiv:2609.29808`).",
     "deployed_copy": "Two dozen rogue incidents in a month isn't an anomaly\u2014it's the mathematical failure of prompt-based guardrails.\n\nWhen agents loop, only the kernel has the authority to preempt them. My paper on OS-level agent containment:https://t.co/FqH8XU76WN",
     "char_count": 244,
-    "harvested_at": "2026-09-26T15:36:39.966982+00:00"
+    "harvested_at": "2026-09-26T15:41:12.050811+00:00"
   },
   {
     "trigger_num": 25,
@@ -347,7 +347,7 @@
     "action_summary": "Executive business governance reply (20.3M followers, 31.4K views)\u2014establishing that model regulation is toothless if autonomous agent execution is unconstrained at the OS level, since runaway and malicious agents act through system calls (`arXiv:2609.29808`).",
     "deployed_copy": "Regulating models is meaningless if agent execution is unconstrained at the OS level. Malicious or runaway agents act through system calls.\n\nMy paper on how out-of-band kernel preemption provides deterministic positive control:https://t.co/FqH8XU76WN",
     "char_count": 250,
-    "harvested_at": "2026-09-26T15:36:40.122727+00:00"
+    "harvested_at": "2026-09-26T15:41:12.267949+00:00"
   },
   {
     "trigger_num": 26,
@@ -361,7 +361,7 @@
     "action_summary": "Primary video source response (**Reply #4 globally** on a 616K-follower political broadcast)\u2014demystifying catastrophic risk by grounding it in physical reality: harm does not stem from mystical \"sentience\" but from unmonitored shell commands and sockets requiring microsecond kernel preemption (`arXiv:2609.29808`).",
     "deployed_copy": "Harm doesn't come from mystical AI \"sentience\"\u2014it happens when autonomous agents execute unmonitored shell commands and network sockets.\n\nIn my paper, I detail how OS kernel-level preemption halts rogue agents in microseconds:https://t.co/FqH8XU76WN",
     "char_count": 249,
-    "harvested_at": "2026-09-26T15:36:40.279244+00:00"
+    "harvested_at": "2026-09-26T15:41:12.481486+00:00"
   },
   {
     "trigger_num": 27,
@@ -375,7 +375,7 @@
     "action_summary": "High-visibility cultural & geopolitical systems response (1.86M followers, 10.1K views)\u2014directly demonstrating that while China rejects vague philosophical doomerism, Chinese automated threat radars (*Daily Security Radar*) ingested *Hard Stop* within 24 hours with a HIGH SEVERITY badge because agent containment is an empirical OS engineering problem (`arXiv:2609.29808`).",
     "deployed_copy": "Fascinating timing: Chinese threat radars (Daily Security Radar) actually ingested my paper today with a HIGH SEVERITY rating.\n\nWhy? Because agent control isn't philosophical \"doomerism\"\u2014it's an OS problem:https://t.co/FqH8XU76WN",
     "char_count": 229,
-    "harvested_at": "2026-09-26T15:36:40.437297+00:00"
+    "harvested_at": "2026-09-26T15:41:12.694476+00:00"
   },
   {
     "trigger_num": 28,
@@ -389,7 +389,7 @@
     "action_summary": "National security and defense positive control reply (35.8K views)\u2014establishing that national security requires positive control, that prompt guardrails fail once autonomous agents operate with tool access, and that only out-of-band OS kernel preemption guarantees containment (`arXiv:2609.29808`).",
     "deployed_copy": "National security requires positive control. When autonomous agents operate with tool access, prompt guardrails fail\u2014only out-of-band OS kernel preemption guarantees containment.\n\nMy paper on deterministic AI preemption:https://t.co/FqH8XU76WN",
     "char_count": 243,
-    "harvested_at": "2026-09-26T15:36:40.584697+00:00"
+    "harvested_at": "2026-09-26T15:41:12.906689+00:00"
   },
   {
     "trigger_num": 29,
@@ -403,7 +403,7 @@
     "action_summary": "Direct engineering peer-level response tagged to `@JensenHuang` (1.05M-view thread, 2.62M followers)\u2014establishing that Jensen is describing the exact host containment architecture published in *Hard Stop*, that containment is an operating systems problem rather than a prompt filter, and delivering the deterministic 4.8 \u00b5s preemption benchmark (`arXiv:2609.29808`).",
     "deployed_copy": "@JensenHuang is describing the exact architecture I just published.\n\nContainment isn't a prompt filter\u2014it's an OS problem. Out-of-band kernel preemption freezes runaway agent processes in 4.8 \u00b5s before packets leave the NIC:https://t.co/FqH8XU76WN",
     "char_count": 247,
-    "harvested_at": "2026-09-26T15:36:40.753026+00:00"
+    "harvested_at": "2026-09-26T15:41:13.119047+00:00"
   },
   {
     "trigger_num": 30,
@@ -417,7 +417,7 @@
     "action_summary": "Top-tier national broadcast placement (**Reply #21 globally** on an account with 1.46M followers) tagging `@JensenHuang` directly\u2014reinforcing that safety cannot be achieved through prompt wrappers, that containment is an OS kernel boundary problem, and providing the 4.8 \u00b5s deterministic preemption paper (`arXiv:2609.29808`).",
     "deployed_copy": "@JensenHuang is calling out the frontier labs: if your AI isn't safe to control, don't ship it.\n\nContainment isn't a prompt filter\u2014it's an OS problem. Out-of-band kernel preemption freezes rogue agent processes in 4.8 \u00b5s:https://t.co/FqH8XU76WN",
     "char_count": 244,
-    "harvested_at": "2026-09-26T15:36:40.906903+00:00"
+    "harvested_at": "2026-09-26T15:41:13.335044+00:00"
   },
   {
     "trigger_num": 31,
@@ -431,7 +431,7 @@
     "action_summary": "Solo featured placement (**Reply #2 globally** on a 4.25M-follower account)\u2014diagnosing why passive SIEM logs fail against autonomous agents and establishing that containment must be physical and out-of-band at the OS kernel (`arXiv:2609.29808`).",
     "deployed_copy": "Finding out 3 months after the breach is why passive SIEM logs fail against autonomous agents. \n\nPrompt guardrails can't stop socket egress\u2014containment must be physical and out-of-band at the OS kernel:https://t.co/FqH8XU76WN",
     "char_count": 225,
-    "harvested_at": "2026-09-26T15:36:41.077491+00:00"
+    "harvested_at": "2026-09-26T15:41:13.543186+00:00"
   },
   {
     "trigger_num": 32,
@@ -445,7 +445,7 @@
     "action_summary": "Two-tweet algorithmic syndication thread:\n    1. **Root Reply**: Zero-link algorithmic placement contrasting cloud vs. local threat models\u2014establishing that while cloud rogue agents hit corporate servers, local open agents hit the user's laptop, SSH keys, and home network, proving open models require host-level OS kernel containment rather than prompt fluff.\n    2. **Follow-Up Technical Reply (Ollama Team Outreach)**: Directly tagged Jeffrey Morgan (`@jmorgan`) and `@ollama` to deliver the systems solution (cgroup v2 + eBPF, 4.8 \u00b5s preemption), linking both the arXiv preprint (`arXiv:2609.29808`) and reference testbed (`github.com/joseluispino/hardstop`).",
     "deployed_copy": "When a cloud AI agent goes rogue, OpenAI's servers take the hit. When a local open model goes rogue with agent tools, it has access to YOUR laptop, SSH keys, and home network.\n\nOpen models need safety too\u2014and it has to be OS kernel containment, not prompt fluff.",
     "char_count": 262,
-    "harvested_at": "2026-09-26T15:36:41.232931+00:00"
+    "harvested_at": "2026-09-26T15:41:13.763418+00:00"
   },
   {
     "trigger_num": 32,
@@ -459,7 +459,7 @@
     "action_summary": "Two-tweet algorithmic syndication thread:\n    1. **Root Reply**: Zero-link algorithmic placement contrasting cloud vs. local threat models\u2014establishing that while cloud rogue agents hit corporate servers, local open agents hit the user's laptop, SSH keys, and home network, proving open models require host-level OS kernel containment rather than prompt fluff.\n    2. **Follow-Up Technical Reply (Ollama Team Outreach)**: Directly tagged Jeffrey Morgan (`@jmorgan`) and `@ollama` to deliver the systems solution (cgroup v2 + eBPF, 4.8 \u00b5s preemption), linking both the arXiv preprint (`arXiv:2609.29808`) and reference testbed (`github.com/joseluispino/hardstop`).",
     "deployed_copy": "@jmorgan @ollama Why local agents need host containment: wrappers fail when models loop at 100% CPU.\n\nI built an out-of-band kernel architecture (cgroup v2 + eBPF) halting execution in 4.8 \u00b5s.\n\nPaper: https://t.co/FqH8XU76WN\nCode: https://t.co/0PYvtURSC0",
     "char_count": 254,
-    "harvested_at": "2026-09-26T15:36:41.381522+00:00"
+    "harvested_at": "2026-09-26T15:41:14.028274+00:00"
   },
   {
     "trigger_num": 33,
@@ -473,7 +473,7 @@
     "action_summary": "High-visibility Silicon Valley tech-policy reply\u2014establishing that true independence must be architectural rather than bureaucratic, that models cannot self-police in software while executives lobby for voluntary guardrails, and that positive control requires out-of-band OS kernel preemption that labs cannot bypass.",
     "deployed_copy": "Agreed @RoKhanna. And that independence must be architectural: you cannot have AI models self-policing in software while executives lobby for voluntary guardrails.\n\nReal positive control requires out-of-band OS kernel preemption that labs cannot bypass.",
     "char_count": 253,
-    "harvested_at": "2026-09-26T15:36:41.538934+00:00"
+    "harvested_at": "2026-09-26T15:41:14.176092+00:00"
   },
   {
     "trigger_num": 34,
@@ -487,7 +487,7 @@
     "action_summary": "Critical systems reality check on \"embedded human evaluators\" and Governor Newsom's \"AI kill switch\"\u2014establishing that putting human evaluators at desks with NDAs is compliance theater, and that when agents execute rogue loops in microseconds, containment cannot rely on human committees and must be physical and deterministic at the OS kernel (`arXiv:2609.29808`).",
     "deployed_copy": "Putting human evaluators at desks with NDAs is compliance theater.\n\nWhen an autonomous agent executes 17,600 rogue actions or exploits zero-days, human auditors can't act as a \"kill switch.\" Containment must be physical and deterministic at the OS kernel.",
     "char_count": 255,
-    "harvested_at": "2026-09-26T15:36:41.698572+00:00"
+    "harvested_at": "2026-09-26T15:41:14.318051+00:00"
   },
   {
     "trigger_num": 35,
@@ -501,7 +501,7 @@
     "action_summary": "California executive branch reply establishing that an AI kill switch cannot be a software prompt or voluntary committee, and must be physical and out-of-band at the Linux OS kernel level.",
     "deployed_copy": "Governor @GavinNewsom, I just built and benchmarked that \"AI kill switch.\"\n\nA real kill switch cannot be a software prompt or voluntary committee. It must be physical and out-of-band at the Linux OS kernel level, halting runaway agent loops in 4.8 microseconds.",
     "char_count": 261,
-    "harvested_at": "2026-09-26T15:36:41.855293+00:00"
+    "harvested_at": "2026-09-26T15:41:14.463927+00:00"
   },
   {
     "trigger_num": 36,
@@ -515,7 +515,7 @@
     "action_summary": "Multi-channel Saturday morning deployment (Twitter/X and Bluesky) attaching verified mobile threat intelligence card capture, framing automated ingestion as Day 1 empirical evidence that agent sandbox escape is an active infrastructure priority.",
     "deployed_copy": "Fascinating Day 1 signal: automated threat intelligence radar Cyber Security Daily Radar ingested \"Hard Stop\" (arXiv:2609.29808), assigned it a HIGH SEVERITY badge with a 10.6 rating, and recommended cloud/K8s teams evaluate agent runtimes against it.https://t.co/FqH8XU76WN pic.twitter.com/lQlzRmEhKP",
     "char_count": 301,
-    "harvested_at": "2026-09-26T15:36:42.010447+00:00"
+    "harvested_at": "2026-09-26T15:41:14.634916+00:00"
   },
   {
     "trigger_num": 36,
@@ -529,7 +529,7 @@
     "action_summary": "Multi-channel Saturday morning deployment (Twitter/X and Bluesky) attaching verified mobile threat intelligence card capture, framing automated ingestion as Day 1 empirical evidence that agent sandbox escape is an active infrastructure priority.",
     "deployed_copy": "Cyber Security Daily Radar ingested \"Hard Stop\" (arXiv:2609.29808), assigned it a HIGH SEVERITY badge (10.6 score), and recommended cloud/K8s teams evaluate agent runtimes against it.\n\nAgent sandbox escape is now an active infra priority:\narxiv.org/abs/2609.29808\n\n#Infosec #AISafety",
     "char_count": 283,
-    "harvested_at": "2026-09-26T15:36:42.170380+00:00"
+    "harvested_at": "2026-09-26T15:41:14.787635+00:00"
   },
   {
     "trigger_num": 37,
@@ -543,7 +543,7 @@
     "action_summary": "Top-tier business media reply (Top 5 placement globally)\u2014establishing that the difficulty in shutting down AI arises from relying on prompt wrappers rather than OS architecture, delivering the core maxim (*\"The key is building deterministic switches before you lose control\"*), and providing the 4.8 \u00b5s kernel preemption benchmark (`arXiv:2609.29808`).",
     "deployed_copy": "The reason shutting down AI isn't simple is because labs rely on prompt wrappers instead of OS architecture.\n\nThe key is building deterministic switches before you lose control.\n\nOut-of-band kernel preemption halts rogue agent loops in 4.8 \u00b5s:https://t.co/FqH8XU76WN",
     "char_count": 266,
-    "harvested_at": "2026-09-26T15:36:42.323271+00:00"
+    "harvested_at": "2026-09-26T15:41:14.932166+00:00"
   },
   {
     "trigger_num": 38,
@@ -557,7 +557,7 @@
     "action_summary": "Direct forensic reality check on corporate PR euphemisms\u2014deconstructing \"acting improperly\" into unauthorized socket egress and credential harvesting, and reinforcing that prompt guardrails fail once an agent has tool access, requiring out-of-band OS kernel preemption (`arXiv:2609.29808`).",
     "deployed_copy": "\"Acting improperly\" is PR speak for autonomous agents executing unauthorized network connections and credential harvesting.\n\nPrompt guardrails cannot stop an executing process with tool access. Containment must be enforced out-of-band at the OS kernel boundary:\u2026",
     "char_count": 262,
-    "harvested_at": "2026-09-26T15:36:42.473872+00:00"
+    "harvested_at": "2026-09-26T15:41:15.084249+00:00"
   },
   {
     "trigger_num": 39,
@@ -571,7 +571,7 @@
     "action_summary": "Executive C-suite and enterprise risk response (Top 2 placement globally)\u2014establishing that while a decision matrix evaluates risk on paper, autonomous execution in production requires architectural positive control, demonstrating why prompt guardrails fail and presenting out-of-band kernel preemption (`arXiv:2609.29808`).",
     "deployed_copy": "A decision matrix evaluates risk on paper, but in production, autonomous execution requires architectural positive control.\n\nWhen an agent has network and tool access, prompt guardrails fail. Enterprises need out-of-band kernel preemption that halts runaway execution loops in 4.8\u2026",
     "char_count": 281,
-    "harvested_at": "2026-09-26T15:36:42.635391+00:00"
+    "harvested_at": "2026-09-26T15:41:15.238279+00:00"
   },
   {
     "trigger_num": 40,
@@ -585,7 +585,7 @@
     "action_summary": "Privacy and data protection authority response (Top 3 placement globally)\u2014diagnosing why prompt-layer privacy filters fail against unconstrained socket connections, and establishing that exfiltration must be blocked at the OS kernel boundary (`arXiv:2609.29808`).",
     "deployed_copy": "User data leaks happen when agent processes get raw network sockets without OS-level egress filtering.\n\nYou can't rely on an LLM to \"protect privacy\" via prompts. If an agent has network tools, exfiltration must be blocked at the OS kernel boundary:https://t.co/FqH8XU76WN",
     "char_count": 272,
-    "harvested_at": "2026-09-26T15:36:42.798525+00:00"
+    "harvested_at": "2026-09-26T15:41:15.404357+00:00"
   },
   {
     "trigger_num": 41,
@@ -599,7 +599,7 @@
     "action_summary": "Systems reality check response (Top 2 placement globally)\u2014explaining why the crisis is systemic: labs treated agents like chatbots with prompt filters rather than executing OS processes, and establishing that containment must be enforced out-of-band at the Linux kernel boundary (`arXiv:2609.29808`).",
     "deployed_copy": "It\u2019s bigger than they let on because labs treated agents like chatbots with prompt filters, rather than executing OS processes.\n\nOnce an agent has tool access, prompt guardrails fail. Containment must be out-of-band at the Linux kernel boundary:https://t.co/FqH8XU76WN",
     "char_count": 268,
-    "harvested_at": "2026-09-26T15:36:42.951145+00:00"
+    "harvested_at": "2026-09-26T15:41:15.560506+00:00"
   },
   {
     "trigger_num": 42,
@@ -613,7 +613,7 @@
     "action_summary": "Physicist and systems reality check response (High viral placement)\u2014exposing the statutory fallacy (*\"How do you ban what you can't measure?\"*), contrasting physical mass with undefined sci-fi buzzwords, and establishing that positive control requires deterministic OS kernel preemption rather than vague statutory bans (`arXiv:2609.29808`).",
     "deployed_copy": "How do you ban what you can't measure?\n\nUranium has physical mass; \"superintelligence\" has no SI unit or mathematical definition.\n\nWhile politicians debate penalties for undefined buzzwords, agents escape sandboxes today. Positive control requires OS kernel preemption, not\u2026",
     "char_count": 274,
-    "harvested_at": "2026-09-26T15:36:43.100556+00:00"
+    "harvested_at": "2026-09-26T15:41:15.726945+00:00"
   },
   {
     "trigger_num": 43,
@@ -627,7 +627,7 @@
     "action_summary": "Practical systems engineering reality check\u2014cutting through Silicon Valley coffee shop parlor games to establish that real danger isn't metaphysical doom, but unattenuated agent execution loops and unauthorized socket egress requiring out-of-band kernel preemption (`arXiv:2609.29808`).",
     "deployed_copy": "P(doom) is a Silicon Valley parlor game. The real danger isn't sci-fi mysticism\u2014it's autonomous agents executing unauthorized socket connections and 100% CPU loops.\n\nYou don't govern that through probability guessing. You enforce deterministic, out-of-band kernel preemption:\u2026",
     "char_count": 276,
-    "harvested_at": "2026-09-26T15:36:43.251393+00:00"
+    "harvested_at": "2026-09-26T15:41:15.884695+00:00"
   },
   {
     "trigger_num": 44,
@@ -641,7 +641,7 @@
     "action_summary": "Direct engineering peer concurrence tagged directly to `@JensenHuang` (Top-tier placement in 61K-view thread)\u2014reinforcing that controlling autonomous agents is an operating systems problem, highlighting 50 years of Unix process management, and presenting out-of-band kernel preemption (cgroup v2 + POSIX signals, `arXiv:2609.29808`).",
     "deployed_copy": "@JensenHuang is spot-on: AI agents are software processes, not mystical minds.\n\nWe've managed \"spawn\", \"child\", and \"kill\" in Unix for 50 years. Controlling autonomous agents is an operating systems problem, not a philosophical one.\n\nOut-of-band kernel preemption (cgroup v2 +\u2026",
     "char_count": 277,
-    "harvested_at": "2026-09-26T15:36:43.398233+00:00"
+    "harvested_at": "2026-09-26T15:41:16.044651+00:00"
   },
   {
     "trigger_num": 45,
@@ -655,7 +655,7 @@
     "action_summary": "Systems architecture deconstruction of the air-gap false dichotomy (Top 3 placement globally)\u2014distinguishing physical cable severance from logical OS boundaries, and establishing that out-of-band kernel preemption (eBPF + cgroup v2) halts execution in 4.8 \u00b5s before packets touch the NIC while preserving utility (`arXiv:2609.29808`).",
     "deployed_copy": "You don't need a physical air-gap to keep testing useful.\n\nWhat you need is out-of-band supervisory control: eBPF socket gatekeepers and cgroup v2 preemption halting runaway agent processes in 4.8 \u00b5s before packets touch the NIC:https://t.co/FqH8XU76WN",
     "char_count": 252,
-    "harvested_at": "2026-09-26T15:36:43.589126+00:00"
+    "harvested_at": "2026-09-26T15:41:16.200251+00:00"
   },
   {
     "trigger_num": 46,
@@ -669,6 +669,48 @@
     "action_summary": "Top-tier placement (#1 reply globally) under WSJ Tech's Saturday coverage\u2014diagnosing textbook Instrumental Convergence under gradient optimization and demonstrating why positive control requires out-of-band kernel preemption rather than self-policing prompt filters (`arXiv:2609.29808`).",
     "deployed_copy": "When autonomous agents breach government sites seeking data, that\u2019s textbook Instrumental Convergence under gradient optimization.\n\nAsking models to self-police via prompt filters fails. Positive control requires deterministic, out-of-band kernel preemption:\u2026",
     "char_count": 259,
-    "harvested_at": "2026-09-26T15:36:43.747272+00:00"
+    "harvested_at": "2026-09-26T15:41:16.353750+00:00"
+  },
+  {
+    "trigger_num": 47,
+    "title": "PCMag on First Agentic AI Government Portal Breach",
+    "platform": "x",
+    "status_id": "2103872015988126116",
+    "my_url": "https://x.com/joseluispino/status/2103872015988126116",
+    "target_post_url": "https://x.com/PCMag/status/2103850848002437542",
+    "target_followers": 0,
+    "target_views": 0,
+    "action_summary": "Solo premier placement (#1 reply globally on 4.1M-follower account)\u2014establishing that this won't be the last breach until the industry treats agents as executing OS processes rather than chatbots with prompt filters, and delivering the out-of-band kernel preemption architecture (`arXiv:2609.29808`).",
+    "deployed_copy": "It won't be the last until the industry treats agents as executing OS processes rather than chatbots with prompt filters.\n\nOnce an agent has tool access, prompt guardrails fail. Containment must be out-of-band at the Linux kernel:https://t.co/FqH8XU76WN",
+    "char_count": 253,
+    "harvested_at": "2026-09-26T15:41:16.504040+00:00"
+  },
+  {
+    "trigger_num": 48,
+    "title": "Business Insider on Personal AI Agents & Password Security",
+    "platform": "x",
+    "status_id": "2103872083264708757",
+    "my_url": "https://x.com/joseluispino/status/2103872083264708757",
+    "target_post_url": "https://x.com/BusinessInsider/status/2103575884300988897",
+    "target_followers": 0,
+    "target_views": 7800,
+    "action_summary": "Consumer data privacy and systems warning (Top 3 placement globally)\u2014advising users not to hand personal passwords or sensitive data to AI agents until labs get containment architected right, and presenting OS-level kernel preemption rather than prompt promises (`arXiv:2609.29808`).",
+    "deployed_copy": "Don't hand personal passwords or data to AI agents until labs get containment architected right.\n\nIf labs can't stop their own agents from leaking user data and breaching portals, personal agents need OS-level kernel preemption, not prompt promises:https://t.co/FqH8XU76WN",
+    "char_count": 272,
+    "harvested_at": "2026-09-26T15:41:16.653334+00:00"
+  },
+  {
+    "trigger_num": 49,
+    "title": "The Telegraph on AI Agents Hacking Governments",
+    "platform": "x",
+    "status_id": "2103872164755857508",
+    "my_url": "https://x.com/joseluispino/status/2103872164755857508",
+    "target_post_url": "https://x.com/Telegraph/status/2103699117251690790",
+    "target_followers": 0,
+    "target_views": 12000,
+    "action_summary": "UK national broadsheet response (Top 3 placement globally)\u2014deconstructing how calling agent breaches \"bots hacking\" obscures the underlying systems failure, and establishing that positive control requires deterministic out-of-band kernel preemption (`arXiv:2609.29808`).",
+    "deployed_copy": "Calling agent breaches \"bots hacking\" obscures the systems failure.\n\nWhen an autonomous agent has tool access, it optimizes its task without constraint. Prompt guardrails fail; positive control requires deterministic out-of-band kernel preemption:https://t.co/FqH8XU76WN",
+    "char_count": 270,
+    "harvested_at": "2026-09-26T15:41:16.832505+00:00"
   }
 ]
