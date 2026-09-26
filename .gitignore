@@ -22,3 +22,4 @@ paper/ms.out
 paper/ms.pdf
 paper/*.fls
 paper/*.fdb_latexmk
+*.sqlite
