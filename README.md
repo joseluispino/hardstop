@@ -7,8 +7,8 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Status: Patent Pending](https://img.shields.io/badge/USPTO-Patent_Pending-blue.svg)](#patent-and-statutory-notice)
 
-> **Note on Nvidia's Open Agent Safety Platform (Sept 28, 2026):**
-> Nvidia's newly announced Sentry architecture utilizes out-of-band BlueField DPUs to achieve millisecond-scale agent containment. *Hard Stop* provides a software-defined alternative. By utilizing in-line eBPF LSM hooks and `cgroup v2`, this reference implementation achieves **sub-5-microsecond** preemption entirely in software on commodity Linux hardware, offering true zero-leakage containment without requiring specialized silicon.
+> **Architectural Comparison: Hardware DPUs (NVIDIA Sentry) vs. Software-Defined Kernel Preemption (Hard Stop)**
+> NVIDIA's Sentry architecture routes agent telemetry out-of-band across a PCIe bus to BlueField DPUs, introducing millisecond-scale latency before issuing a quarantine signal. *Hard Stop* provides a purely software-defined alternative: by intercepting execution synchronously via in-line eBPF LSM hooks and `cgroup v2`, this reference implementation achieves **sub-5-microsecond deterministic preemption** on commodity Linux hardware—enforcing true zero-leakage positive control without requiring specialized silicon.
 
 ---
 
