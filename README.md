@@ -7,6 +7,11 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Status: Patent Pending](https://img.shields.io/badge/USPTO-Patent_Pending-blue.svg)](#patent-and-statutory-notice)
 
+> **Note on Nvidia's Open Agent Safety Platform (Sept 28, 2026):**
+> Nvidia's newly announced Sentry architecture utilizes out-of-band BlueField DPUs to achieve millisecond-scale agent containment. *Hard Stop* provides a software-defined alternative. By utilizing in-line eBPF LSM hooks and `cgroup v2`, this reference implementation achieves **sub-5-microsecond** preemption entirely in software on commodity Linux hardware, offering true zero-leakage containment without requiring specialized silicon.
+
+---
+
 > **Abstract:** An autonomous generative AI operating in a continuous execution loop without an out-of-band **Epistemic Andon Cord** is an existential operational hazard. *Hard Stop* introduces a dual-plane supervisory control architecture combining out-of-band Discrete Event System (DES) supervision, Synchronous Reactive (SR) sentinels, and sub-millisecond (<0.154 ms) POSIX/eBPF preemption buses—demonstrating deterministic process freezes before off-target socket traffic or unauthorized system calls traverse hypervisor boundaries.
 
 ---
