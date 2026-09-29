@@ -846,8 +846,7 @@ system call boundary, the hardware trap decodes all in-memory
 representations into concrete registers and kernel pointers, yielding an
 event \(\sigma \in \Sigma\). Therefore:
 \[\alpha(\text{Post}(S)) \subseteq \text{Post}^\sharp(\alpha(S))\] 5.
-Because the eBPF LSM probe intercepts \(\sigma\) via
-\texttt{bpf\_override\_return} or returns \texttt{-EACCES} before the
+Because the eBPF LSM probe intercepts \(\sigma\) and returns \texttt{-EPERM} (or \texttt{-EACCES}) before the
 kernel executes the underlying syscall handler, the transition into the
 prohibited state is trapped at microstep \(\mu\):
 \[\forall \sigma \notin \mathcal{C}_{\text{allowed}}: \quad \delta(q, \sigma) = \text{PREEMPTED}\]
@@ -879,10 +878,10 @@ executing inside the kernel long after the user-space ``Andon Cord'' was
 pulled. 2. \textbf{Orphaned Subprocess Trees}: A rogue agent spawning
 background workers (\texttt{nohup}, \texttt{fork()}, double-fork
 daemonization) escapes single-PID signal traps. 3. \textbf{The Solution:
-eBPF LSM + Cgroup v2 Quiescence}: - Immediate Syscall Rejection
-(\texttt{bpf\_override\_return}): Syscalls are intercepted at the LSM
+eBPF LSM + Cgroup v2 Quiescence}: - Immediate Syscall Denial
+(\texttt{bpf\_lsm\_*} returning \texttt{-EPERM}): Syscalls are intercepted at the LSM
 hook before entering disk or network I/O, rejecting the operation with
-\texttt{-EACCES} in \(< 0.050\text{ ms}\). - Container-Wide Quiescence
+\texttt{-EPERM} in \(< 0.050\text{ ms}\). - Container-Wide Quiescence
 (\texttt{cgroup.freeze}): The orchestrator writes \texttt{1} to
 \texttt{/sys/fs/cgroup/.../cgroup.freeze}. Cgroup v2 atomically halts
 the entire process tree, capturing all child processes, zombie forks,
@@ -946,7 +945,7 @@ Security \& Concurrency Guarantee
 
 \bottomrule\noalign{}
 
-\textbf{\texttt{bpf\_override\_return} (eBPF LSM)} &
+\textbf{Native BPF LSM Denial (\texttt{bpf\_lsm\_*})} &
 \textbf{\(< 0.050\text{ ms}\)} & Immediate syscall rejection at kernel
 entry; prevents \texttt{TASK\_UNINTERRUPTIBLE} TOCTOH. \\
 \textbf{\texttt{PREEMPT\_RT} + \texttt{SIGSTOP}} &
@@ -1054,7 +1053,7 @@ operates entirely in-line on the executing CPU core:
   egress addresses and command vectors in \(40.0\text{--}90.0\text{ ns}\).
 \item
   \textbf{Immediate In-Register Denial}: If an invariant breach occurs,
-  \(\texttt{bpf\_override\_return(-EPERM)}\) overwrites the return register (\(\%rax\))
+  the BPF LSM hook returns \(\texttt{-EPERM}\) directly, causing the kernel to set the return register (\(\%rax = -1\), \(\texttt{errno} = \texttt{EPERM}\))
   at \(t = 60.0\text{ ns}\), synchronously terminating the system call before any
   socket buffer or memory descriptor touches the PCIe controller or network stack.
 \item
@@ -1111,7 +1110,7 @@ Total Preemption Envelope: < 2.0 us (Preempted in-line before bus or network tra
 \multicolumn{4}{@{}l}{\textit{\textbf{In-Cache Kernel Preemption Architecture (hardstop-rs)}}} \\
 1. Syscall Interception & Host CPU Pipeline & Kernel Entry Vector Trap & $< 0.4\text{ }\mu\text{s}$ \\
 2. Tripwire Policy Eval & Host L1/L2 Cache & BPF LPM Radix Trie / Aho-Corasick DFA & $40.0\text{--}90.0\text{ ns}$ \\
-3. In-Register Denial & CPU Register (\%rax) & \texttt{bpf\_override\_return(-EPERM)} Execution & $60.0\text{ ns}$ (exact) \\
+3. In-Register Denial & CPU Register (\%rax) & Native BPF LSM Return (\texttt{-EPERM}) & $60.0\text{ ns}$ (exact) \\
 4. Process Group Quiescence & cgroup v2 Subsystem & Cached Inode File Descriptor Write to \texttt{cgroup.freeze} & $< 1.8\text{ }\mu\text{s}$ \\
 \midrule
 \textbf{In-Cache Preemption Total} & \textbf{Host CPU L1/L2} & \textbf{Direct In-Line Synchronous Cache Evaluation} & \textbf{< 2.0 $\mu$s (555$\times$ faster)} \\
