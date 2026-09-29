@@ -83,7 +83,7 @@ Total Preemption Envelope: < 2.0 µs (Preempted in-line before bus or network tr
 | **In-Cache Kernel Preemption (hardstop-rs)** | | | |
 | 1. Syscall Interception | Host CPU Pipeline | Kernel Entry Vector Trap | < 0.4 µs |
 | 2. Tripwire Policy Eval | Host L1/L2 Cache | BPF LPM Radix Trie / Aho-Corasick DFA | 40.0 – 90.0 ns |
-| 3. In-Register Denial | CPU Register (`%rax`) | `bpf_override_return(-EPERM)` Execution | 60.0 ns (exact) |
+| 3. Synchronous LSM Denial | CPU Register (`%rax`) | Native BPF LSM `return -EPERM` Execution | 60.0 ns (exact) |
 | 4. Process Group Quiescence | `cgroup v2` Subsystem | Cached Inode File Descriptor to `cgroup.freeze` | < 1.8 µs |
 | **In-Cache Preemption Total** | **Host CPU L1/L2** | **Direct In-Line Synchronous Cache Evaluation** | **< 2.0 µs (555× faster)** |
 
