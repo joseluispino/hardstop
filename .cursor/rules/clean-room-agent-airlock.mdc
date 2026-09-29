@@ -1,0 +1,17 @@
+---
+description: Strict Clean-Room Airlock and Third-Party Framework Isolation Directives
+globs: "**/*"
+---
+
+# Clean-Room Airlock & Third-Party Framework Isolation (CRA-AXM-2026-001)
+
+## 1. Absolute Prohibition on Competitor & Academic Source Ingestion
+Under **35 U.S.C. § 273 (Prior Commercial Use Defense)**, **35 U.S.C. § 284 (Willful Infringement Shield)**, and **California Labor Code § 2870(a)(1)**:
+- **Zero Ingestion of OMAR Rust Code**: AI agents (Antigravity, Cursor, OpenCode, Claude Code) are **STRICTLY FORBIDDEN** from cloning, downloading, curling, or reading internal source code (`*.rs`) from `github.com/omar-os/omar` or any mirror. Interactions with OMAR are strictly black-box (reading published papers, public DSL specs, or executing external CLI binaries `hardstop run -- omar`).
+- **Zero Ingestion of NVIDIA OpenShell Code**: AI agents are **STRICTLY FORBIDDEN** from cloning or reading source files from `github.com/NVIDIA/OpenShell`. Hard Stop's prior art date (`arXiv:2609.29808`, Sept 24, 2026) precedes NVIDIA's release (Sept 28, 2026) by 4 days; maintaining complete code segregation is legally mandatory.
+- **Zero Decompilation of Claude Code**: AI agents are **STRICTLY FORBIDDEN** from reverse-engineering, disassembling, or decompiling Anthropic's Claude Code binaries.
+
+## 2. Permitted Framework Interoperability Standards (Tier 1)
+When authoring integration adapters or examples for open agent frameworks (LangGraph, CrewAI, AutoGen, Ollama, Smolagents):
+- **Public API & SDKs Only**: Interacting via official public client libraries (`pip install langgraph`, `pip install crewai`, `ollama` CLI/REST) and published documentation is fully permitted under the fair-use interoperability doctrine (*Sega v. Accolade*, *Google v. Oracle*).
+- **Zero Source Copying**: Never copy internal framework orchestration logic into `hardstop-rs` or Axiom repositories. Maintain strict adapter boundary separation (`examples/`).

@@ -1,0 +1,5 @@
+# ADR-AXM-127: PUBLIC REPOSITORY AIRLOCK MARKER
+# Repository: https://github.com/joseluispino/hardstop
+# Governing Invariant: Strict physical directory isolation under /home/jpino/src/public/
+# Pushes to world-readable GitHub are blocked unless explicitly confirmed by human operator.
+# Zero internal vault paths, corporate governance notes, or operational telemetry permitted.
